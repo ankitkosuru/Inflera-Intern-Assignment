@@ -1,0 +1,28 @@
+Amazon Policy Guidelines (Sample Document)
+
+1. Return Policy
+- Most items are eligible for return within 10 days of delivery.
+- Electronics must be returned within 7 days in original packaging.
+- Perishable goods, gift cards, and digital products are non-returnable.
+
+2. Warranty Policy
+- Products sold by Amazon carry a standard 1-year manufacturer warranty unless specified otherwise.
+- Extended warranties may be available for electronics and appliances.
+
+3. Privacy Policy
+- Customer data is collected only for order fulfillment, personalization, and improving services.
+- Amazon does not sell customer data to third parties.
+- Users can request data deletion from their account settings.
+
+4. Seller Guidelines
+- Sellers must provide accurate product descriptions and pricing.
+- Counterfeit or illegal items are strictly prohibited.
+- Sellers must adhere to Amazon's shipping and delivery standards.
+
+5. Customer Conduct
+- Customers must provide accurate contact and payment information.
+- Abusive language, fraudulent claims, or misuse of services can lead to account suspension.
+
+6. Prime Membership Policy
+- Prime members enjoy free fast delivery, streaming services, and exclusive deals.
+- Membership can be canceled at any time with no cancellation fee.

@@ -1,0 +1,25 @@
+Amazon Echo Dot (5th Gen) – Quick Start Guide
+
+1. Setting Up Your Device
+- Plug the Echo Dot into a power outlet using the included 15W adapter.
+- Wait for the light ring to turn orange. This indicates the device is in setup mode.
+- Open the Amazon Alexa app on your smartphone and follow the on-screen instructions to connect the Echo Dot to Wi-Fi.
+
+2. Connecting to Wi-Fi
+- In the Alexa app, go to Devices > Add Device > Amazon Echo > Echo Dot.
+- Select your Wi-Fi network and enter the password.
+- Once connected, Alexa will confirm with a greeting.
+
+3. Using Voice Commands
+- Say “Alexa” followed by a command. Examples:
+  * “Alexa, what’s the weather today?”
+  * “Alexa, play music.”
+  * “Alexa, set a timer for 10 minutes.”
+
+4. Smart Home Setup
+- To connect smart bulbs, plugs, or other devices, say: “Alexa, discover devices.”
+- Configure devices in the Alexa app under Devices > Add Device.
+
+5. Troubleshooting
+- If the Echo Dot does not connect to Wi-Fi, reset it by pressing and holding the Action button for 20 seconds.
+- Restart the device if it becomes unresponsive by unplugging and plugging it back in.

@@ -1,0 +1,26 @@
+Amazon Simple Sales Report
+
+Product: Echo Dot (5th Gen)
+- January: 200 units sold
+- February: 300 units sold
+- March: 250 units sold
+
+Product: Fire TV Stick
+- January: 150 units sold
+- February: 180 units sold
+- March: 200 units sold
+
+Product: Kindle Paperwhite
+- January: 100 units sold
+- February: 120 units sold
+- March: 110 units sold
+
+Product: Echo Show
+- January: 90 units sold
+- February: 95 units sold
+- March: 105 units sold
+
+Product: Ring Doorbell
+- January: 130 units sold
+- February: 140 units sold
+- March: 150 units sold
