@@ -1,0 +1,35 @@
+Amazon Echo Dot (5th Gen) – Product Specifications
+
+1. General Information
+- Product Name: Amazon Echo Dot (5th Gen)
+- Category: Smart Speaker with Alexa
+- Release Year: 2023
+- Colors Available: Charcoal, Glacier White, Deep Sea Blue
+
+2. Dimensions & Weight
+- Dimensions: 100 mm (W) × 100 mm (D) × 89 mm (H)
+- Weight: 340 grams
+
+3. Audio
+- Speaker Size: 1.73” front-firing speaker
+- Audio Quality: Improved bass, clear vocals, balanced sound
+- Audio Output: 3.5 mm line out (not available in all regions)
+- Supported Music Services: Amazon Music, Spotify, Apple Music, Audible
+
+4. Connectivity
+- Wi-Fi: Dual-band Wi-Fi (2.4 GHz and 5 GHz)
+- Bluetooth: Supports Advanced Audio Distribution Profile (A2DP)
+- Smart Home Support: Works with Zigbee and Matter-enabled devices
+
+5. Features
+- Voice Assistant: Alexa built-in
+- Functions:
+  * Set alarms, timers, reminders
+  * Control smart home devices
+  * Answer general knowledge questions
+  * Stream music and podcasts
+- Privacy: Microphone off button, multiple layers of privacy control
+
+6. Power
+- Adapter Included: 15W power adapter
+- Power Input: 100V–240V AC
