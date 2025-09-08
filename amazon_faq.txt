@@ -1,0 +1,33 @@
+Amazon FAQ (Sample Document)
+
+1. Orders & Shipping
+Q: How can I track my Amazon order?
+A: You can track your order from the "Your Orders" section in your Amazon account. Once shipped, a tracking ID and estimated delivery date are provided.
+
+Q: What is the standard delivery time?
+A: Standard delivery usually takes 3–5 business days. Prime members may receive eligible items in 1–2 days.
+
+2. Payments
+Q: What payment methods are accepted?
+A: Amazon accepts credit/debit cards, net banking, Amazon Pay, UPI, and select gift cards.
+
+Q: Can I pay on delivery?
+A: Yes, Cash on Delivery (COD) is available for eligible orders.
+
+3. Returns & Refunds
+Q: What is Amazon’s return policy?
+A: Most items can be returned within 10 days of delivery. Some categories (electronics, clothing, etc.) may have different policies.
+
+Q: How long does it take to get a refund?
+A: Refunds are usually processed within 5–7 business days after the returned item is received.
+
+4. Prime Membership
+Q: What are the benefits of Amazon Prime?
+A: Prime offers free fast delivery, Prime Video, Prime Music, exclusive deals, and early access to sales.
+
+Q: How can I cancel my Prime membership?
+A: Go to “Your Account” → “Prime Membership” → “Manage Membership” → “End Membership.”
+
+5. Customer Support
+Q: How do I contact Amazon Customer Care?
+A: You can contact support through the Help section in the app/website or by calling the toll-free number available in your region.
