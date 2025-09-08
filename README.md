@@ -1,9 +1,13 @@
                                                                 # Inflera-Intern-Assignment
 ## Overview
 This project implements a multi-agent Q&A system with a routing layer that decides which specialized agent should handle a user’s query. The system integrates:
+
 RAG Agent: Retrieval-Augmented Generation over domain text files (Amazon Echo Dot in this case).
+
 Calculator Agent: Handles numeric and computational queries using numexpr.
+
 Dictionary Agent: Provides word definitions using the Free Dictionary API.
+
 A Gradio UI wraps everything, enabling interactive testing in a single notebook.
 
 ## Architecture
@@ -11,17 +15,26 @@ The system follows a multi-agent design with a central router that dispatches us
 
 ### Router
 Acts as the entry point for all user queries.
+
 Uses simple heuristics and keyword matching to decide which agent should handle a query.
+
 If a query is clearly numeric or definitional, it routes to Calculator Agent or Dictionary Agent. Otherwise, it defaults to RAG Agent.
+
 A secondary check ensures that numeric-looking queries mistakenly sent to RAG are redirected to Calculator.
 
 ### RAG Agent
 Loads and processes six domain text files.
+
 Splits text into smaller chunks using a recursive character splitter.
+
 Generates dense embeddings with all-MiniLM-L6-v2.
+
 Stores embeddings in a FAISS vector database for similarity search.
+
 On query, retrieves the top-k most relevant chunks.
+
 Passes context + query to FLAN-T5-base, which generates a grounded answer.
+
 Guardrails ensure the model responds with “Not found in the uploaded files” if no relevant context is retrieved.
 
 ### Calculator Agent
@@ -36,10 +49,14 @@ Ensures concise, direct answers for definitional queries.
 
 ### User Interface (UI)
 Built with Gradio Blocks.
+
 Provides a simple input box for user queries.
 Displays three outputs:
+  
   1)The chosen branch/agent (Calculator, Dictionary, RAG).
+  
   2)The retrieved context snippets (for transparency).
+  
   3)The final answer.
 Wrapped in a timeout (150 seconds) to avoid freezing on long operations.
 
@@ -64,36 +81,50 @@ Timeouts → prevent long LLM calls from freezing the UI.
 ### Google Colab
 Open the notebook Inflerno_Intern_Assignment.ipynb in Google Colab.
 Run cells in order:
-Install dependencies
-Upload six .txt files (Amazon files)
-Ingest & build FAISS index
-Load FLAN-T5 model
-Define agents & router
-Launch Gradio UI
+1)Install dependencies
+
+2)Upload six .txt files (Amazon files)
+
+3)Ingest & build FAISS index
+
+4)Load FLAN-T5 model
+
+5)Define agents & router
+
+6)Launch Gradio UI
 
 ### Test with queries:
 “What are the available colors for Echo Dot?” → RAG
+
 “Define latency, inference” → Dictionary
+
 “Calculate total sales of Echo Dot” → Calculator
 
 ## Router Keywords
 ### Dictionary Agent
 Triggered when query contains: define, meaning of
+
 Example:
 “Define inference and latency” → Dictionary Agent
 
 ### Calculator Agent
 Triggered when query has numeric or aggregation cues:
+
 Words like : calculate, average, mean
+
 Numbers with operators (+, -, %, increase, decrease)
+
 comparative terms like highest, lowest, maximum, minimum
+
 Example:
 "Calculate total Sales of Echo Dot" - Calculator Agent
 
 
 ## Example Queries
 1) What payment methods are Accepted by Amazon?
+
 2) Define Counterfeit
+
 3) In which month Echo Dot has highest sales?
 
 
